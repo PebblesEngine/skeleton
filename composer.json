@@ -1,0 +1,24 @@
+{
+	"name": "pebblesengine/skeleton",
+	"type": "project",
+	"license": "GPL-3.0",
+	"authors": [
+	    {
+	        "name": "Artur Sh. Mamedbekov",
+	        "email": "Artur-Mamedbekov@yandex.ru"
+	    }
+	],
+	"require": {
+		"php": ">= 5.4 | ^7.0",
+		"zendframework/zend-servicemanager": "^3.0",
+		"zendframework/zend-eventmanager": "^3.0",
+		"zendframework/zend-diactoros": "^1.0",
+		"bashka/bricks_http_routingpsr": "^1.0",
+		"bashka/bricks_middleware": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Pebbles\\Engine\\": "modules/Engine/src/"
+		}
+	}
+}
