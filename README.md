@@ -1,3 +1,6 @@
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/PebblesEngine/Develop)
+[![SemVer](http://img.shields.io/badge/semver-✓-brightgreen.svg)](http://semver.org)
+
 # Установка
 
 ```bash
